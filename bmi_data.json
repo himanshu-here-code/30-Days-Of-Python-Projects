@@ -1,0 +1,46 @@
+[
+    {
+        "name": "Himzz",
+        "gender": "Male",
+        "age": 18,
+        "height_cm": 177,
+        "weight_kg": 51,
+        "bmi": 16.28,
+        "category": "Underweight"
+    },
+    {
+        "name": "lao",
+        "gender": "female",
+        "age": "20",
+        "height": 190,
+        "weight": 56,
+        "bmi": 15.51246537396122
+    },
+    {
+        "name": "himzz",
+        "gender": "Male",
+        "age": 18,
+        "height_cm": 177,
+        "weight_kg": 51,
+        "bmi": 16.28,
+        "category": "Underweight"
+    },
+    {
+        "name": "jim",
+        "gender": "Male",
+        "age": 190,
+        "height_cm": 5000,
+        "weight_kg": 40000,
+        "bmi": 16.0,
+        "category": "Underweight"
+    },
+    {
+        "name": "janice",
+        "gender": "Female",
+        "age": 19,
+        "height_cm": 150,
+        "weight_kg": 49,
+        "bmi": 21.78,
+        "category": "Normal Weight"
+    }
+]
