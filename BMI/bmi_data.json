@@ -50,5 +50,37 @@
         "height": 180,
         "weight": 80,
         "bmi": 24.691358024691358
+    },
+    {
+        "name": "broski",
+        "gender": "female",
+        "age": "19",
+        "height": 170,
+        "weight": 48,
+        "bmi": 16.60899653979239
+    },
+    {
+        "name": "wiwiwi",
+        "gender": "male",
+        "age": "1",
+        "height": 20,
+        "weight": 1,
+        "bmi": 24.999999999999996
+    },
+    {
+        "name": "larry the evil cat",
+        "gender": "male",
+        "age": 2.0,
+        "height": 40.0,
+        "weight": 3.0,
+        "bmi": 18.749999999999996
+    },
+    {
+        "name": "twin",
+        "gender": "female",
+        "age": 20.2,
+        "height": 170.5,
+        "weight": 50.3,
+        "bmi": 17.302912771647986
     }
 ]

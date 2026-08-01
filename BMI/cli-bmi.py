@@ -3,24 +3,26 @@ import os
 
 print("----WELCOME TO BMI COUNTER----")
 name = str(input("Please Enter your Name: "))
-gender = ["male","female"]
-print("choose your gender")
-for index,gender in enumerate(gender,1):
-    print(f"{index}. {gender}")
-gender_choose =int(input("Enter the number which defines your gender: "))
-if gender_choose >2:
-    print("please choose between 1 or 2")
+genders = ["male", "female"]
 
-elif gender_choose == 1:
-    age =input("Please Enter your age sir: ")
+for index, g in enumerate(genders, 1):
+    print(f"{index}. {g}")
 
-elif gender_choose == 2:
-   age =input("Please Enter your age ma'am: ")
+gender_choose = int(input("Enter the number: "))
+
+if gender_choose in (1, 2):
+    gender = genders[gender_choose - 1]
+
+    if gender == "male":
+        age = float(input("Please Enter your age sir: "))
+    else:
+        age = float(input("Please Enter your age ma'am: "))
 else:
-   print("input invalid. Try again.")
+    print("Invalid choice.")
+    exit()
 
-height = int(input("Please enter your height in cm: "))
-weight = int(input("Please enter your weight in kg: "))
+height = float((input("Please enter your height in cm: ")))
+weight = float(input("Please enter your weight in kg: "))
 
 def bmi_calc(height , weight):
     height_in_m = height /100
@@ -51,9 +53,7 @@ if os.path.exists(folder):
 else:
     data = []
 
-# Add new record
 data.append(person)
 
-# Save data
 with open(folder, "w") as file:
     json.dump(data, file, indent=4)
