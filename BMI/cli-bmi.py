@@ -36,11 +36,11 @@ person ={
     "weight": weight,
     "bmi": bmi
 }
-filename ="bmi_data.json"
+folder ="BMI/bmi_data.json"
 
-if os.path.exists(filename):
+if os.path.exists(folder):
     try:
-        with open(filename, "r") as file:
+        with open(folder, "r") as file:
             data = json.load(file)
 
         if not isinstance(data, list):
@@ -55,5 +55,5 @@ else:
 data.append(person)
 
 # Save data
-with open(filename, "w") as file:
+with open(folder, "w") as file:
     json.dump(data, file, indent=4)

@@ -42,5 +42,13 @@
         "weight_kg": 49,
         "bmi": 21.78,
         "category": "Normal Weight"
+    },
+    {
+        "name": "drake",
+        "gender": "female",
+        "age": "39",
+        "height": 180,
+        "weight": 80,
+        "bmi": 24.691358024691358
     }
 ]
