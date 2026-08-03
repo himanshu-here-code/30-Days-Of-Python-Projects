@@ -21,7 +21,7 @@ To build one functional Python project every day for 30 days, escaping "tutorial
 - [ ] **Day 2:** Bulk File Renamer
 - [ ] **Day 3:** Text Analyzer & Word Counter
 - [ ] **Day 4:** CLI Contact Book (In-Memory)
-- [ ] **Day 5:** CLI Contact Book (JSON Persistence)
+- [ ] **Day 5:** CLI Contact Book and More Rules (JSON Persistence)
 - [ ] **Day 6:** Advanced Random Password Generator
 - [ ] **Day 7:** Pomodoro Timer CLI
 
