@@ -82,5 +82,13 @@
         "height": 170.5,
         "weight": 50.3,
         "bmi": 17.302912771647986
+    },
+    {
+        "name": "Himanshu",
+        "gender": "male",
+        "age": 18.0,
+        "height": 174.0,
+        "weight": 51.0,
+        "bmi": 16.84502576298058
     }
 ]
