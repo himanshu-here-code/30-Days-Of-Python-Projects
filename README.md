@@ -17,11 +17,11 @@ To build one functional Python project every day for 30 days, escaping "tutorial
 
 ### Phase 1: Muscle Memory (Days 1-7)
 *Focus: Syntax, loops, dictionaries, and file handling.*
-- [ ] **Day 1:** CLI BMI Calculator and triangles
-- [ ] **Day 2:** Bulk File Renamer
-- [ ] **Day 3:** Text Analyzer & Word Counter
-- [ ] **Day 4:** CLI Contact Book (In-Memory)
-- [ ] **Day 5:** CLI Contact Book and More Rules (JSON Persistence)
+- [✅] **Day 1:** CLI BMI Calculator and triangles
+- [✅] **Day 2:** Bulk File Renamer
+- [✅] **Day 3:** Text Analyzer & Word Counter
+- [✅] **Day 4:** CLI Contact Book (In-Memory)
+- [✅] **Day 5:** CLI Contact Book and More Rules (JSON Persistence)
 - [ ] **Day 6:** Advanced Random Password Generator
 - [ ] **Day 7:** Pomodoro Timer CLI
 
