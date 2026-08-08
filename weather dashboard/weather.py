@@ -19,7 +19,7 @@ response = requests.get(BASE_URL, params=payload)
 
 if response.status_code == 200:
     weather_data = response.json()
-    
+
     temp = weather_data['main']['temp']
     feels_like = weather_data['main']['feels_like']
     humidity = weather_data['main']['humidity']
