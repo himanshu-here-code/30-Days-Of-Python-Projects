@@ -146,7 +146,7 @@ Track your completion here:
 
 ```
 Phase 1: Days 1-7    [░░░░░░░░░░] 100%
-Phase 2: Days 8-14   [░░░░░░░░░░] 56%
+Phase 2: Days 8-14   [░░░░░░░░░░] 57%
 Phase 3: Days 15-21  [░░░░░░░░░░] 0%
 Phase 4: Days 22-30  [░░░░░░░░░░] 0%
 ```
@@ -179,5 +179,5 @@ This project is open source and available under the MIT License.
 
 <p align="center">
   <strong>Follow along as I update this repository daily!</strong><br>
-  <em>Day 11 of 30 — Keep shipping. 🚀</em>
+  <em>Day 12 of 30 — Keep shipping. 🚀</em>
 </p>
