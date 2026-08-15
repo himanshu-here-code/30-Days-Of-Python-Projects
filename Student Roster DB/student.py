@@ -14,7 +14,6 @@ while True:
     print("---------student portal---------")
     s_name = str(input("Enter Student's name (or 'quit' to exit): "))
     
-    # Exit condition
     if s_name.lower() == 'quit':
         break
     
@@ -25,8 +24,7 @@ while True:
         continue
     
     s_grade = input("Enter student's grade: ")
-    
-    # Use cursor for INSERT (fixed)
+
     c.execute("INSERT INTO students (name, age, grade) VALUES (?,?,?)", (s_name, s_age, s_grade))
     con.commit()
     print("Student added successfully!\n")
