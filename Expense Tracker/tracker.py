@@ -1,6 +1,6 @@
 import sqlite3
 
-con = sqlite3.connect("finance.db")
+con = sqlite3.connect("Expense Tracker/finance.db")
 c = con.cursor()
 c.execute("""CREATE TABLE IF NOT EXISTS transactions(
           id INTEGER PRIMARY KEY AUTOINCREMENT,
